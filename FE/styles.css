@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Light gray background color */
+  height: 100vh; /* Ensure the body takes full viewport height */
+  display: flex;
+  flex-direction: column; /* Arrange children vertically */
+}
+
+header {
+  background-color: #333; /* Dark gray background color */
+  color: #fff; /* White text color */
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+#connectedDevices h2 {
+  text-align: center;
+}
+
+#countDisplay {
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly */
+  padding: 20px;
+  height: 100%;
+}
+
+.value {
+  font-size: 48px;
+  color: #333; /* Dark gray text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.alert {
+  flex-grow: 1; /* Take remaining height */
+  padding: 20px;
+  border-left: 1px solid #ccc; /* Add a border between sections */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.alert h2 {
+  margin: 0 0 10px; /* Adjust margin */
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+}
+#connectedDevices {
+  width: 50%;
+}
+
+#recentStrings {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  font-family: monospace;
+  overflow-y: auto;
+  min-height: 23%;
+  min-width: 30%;
+}
+.container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#recentStrings div {
+  margin-bottom: 5px;
+}
